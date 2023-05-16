@@ -20,7 +20,7 @@ const collectMenuData =  () => {
   e.target.img
   console.log(img)
     
-    const imgDetail =document.getElementsByClassName("img#detail-image")
+    const imgDetail =document.querySelector("img.detail-image")
     imgDetail.src = ramen.image  
 
     const h2 = document.querySelector("h2")
